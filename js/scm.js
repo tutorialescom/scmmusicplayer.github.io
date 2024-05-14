@@ -5,7 +5,7 @@ define([
 
 var	playback = null, 
 	current = (function(){
-		var empty = new Song({title:""}),
+		var empty = new Song({title:"Radioactiva TX"}),
 			song = ko.observable(empty);
 		return ko.computed({
 			read: song,
