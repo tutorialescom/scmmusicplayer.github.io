@@ -13,6 +13,9 @@
 #player #tooltip{ right:196px; }
 #player #timer{ right:120px;  }
 #player #list{ right:0px; }
+#tooltip{
+  display: none !important;
+}
 
 #player #seeker{ right:320px; }
 #player #seekerBase{ border-color:#ccc;  }
